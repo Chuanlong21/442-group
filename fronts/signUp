@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <script src="https://kit.fontawesome.com/adae25785f.js" crossorigin="anonymous"></script>
-    <link href="style.css" rel="stylesheet" type="text/css"/>
+    <link href="signUp-style.css" rel="stylesheet" type="text/css"/>
     <script src="script.js">
 
     </script>
