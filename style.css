@@ -1,0 +1,230 @@
+  words-logo{
+    /* words/logo */
+    position: absolute;
+    width: 742px;
+    height: 484px;
+    left: 150px;
+    top: 296px;
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  }
+
+  word{
+    /* Words */
+    position: absolute;
+    width: 475px;
+    height: 135px;
+    left: 126px;
+    top: 40px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 144px;
+    line-height: 16px;
+    /* or 11% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+  }
+
+  logo{
+    /* Logo */
+    position: absolute;
+    width: 363px;
+    height: 82px;
+    left: 182px;
+    top: 238px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 144px;
+    line-height: 16px;
+    /* or 11% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+  }
+
+  signUp_Container{
+    /* container */
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 48px 40px;
+
+    position: absolute;
+    width: 380px;
+    height: 624px;
+    left: 70%;
+    top: 13%;
+
+    background: #FFFFFF;
+    /* Grey / T4 */
+
+    border: 2px solid #ECECEC;
+    box-sizing: border-box;
+    border-radius: 16px;
+
+  }
+
+  t1{
+    /* Welcome! */
+    position: static;
+    width: 300px;
+    height: 32px;
+    left: 0px;
+    top: 0px;
+
+    font-family: Cambay;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 32px;
+    /* identical to box height, or 229% */
+
+    display: flex;
+    align-items: flex-end;
+
+    color: rgba(0, 0, 0, 0.43);
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 4px 0px;
+  }
+
+  t2{
+    /* Join the Community */
+    position: static;
+    width: 307px;
+    height: 36px;
+    left: 0px;
+    top: 36px;
+
+    /* H2 */
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    /* or 133% */
+
+
+    color: #212429;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 4px 0px;
+  }
+
+
+  #signUp_button{
+
+    /* Button / Primary / Default */
+    position: absolute;
+    width: 300px;
+    height: 48px;
+    left: 10.5%;
+    top: 80%;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 16px 0px;
+
+   /* background */
+    background: rgba(255, 49, 234, 0.45);
+    border-radius: 24px;
+    border:none;
+
+    /* Next */
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height, or 125% */
+    vertical-align: middle;
+    text-align: center;
+
+    /* White */
+    color: #FFFFFF;
+  }
+
+#input_text {
+    font-family: Inter;
+    font-style: normal;
+    color:#212429;
+    flex: none;
+
+    order: 0;
+    flex-grow: 0;
+    margin: 8px 0px;
+}
+
+
+#input{
+  border: 1px solid #D8D8D8;
+  box-sizing: border-box;
+  border-radius: 30px;
+  height: 18%;
+  width: 102%;
+}
+
+.input-icons i { 
+  position: absolute;
+  color: #98989E;
+} 
+
+#usernameIcon {
+  left: 15%;
+  top: 27.5%;
+}
+
+#emailIcon {
+  left: 15%;
+  top: 41%;
+}
+
+#passwordIcon {
+  left: 15%;
+  top: 53.8%;
+}
+
+#cPasswordIcon {
+  left: 15%;
+  top: 67%;
+}
+
+.input-icons { 
+  width: 100%; 
+  margin-bottom: 10px;
+} 
+
+
+.input-field { 
+  width: 100%;
+  padding: 10px;
+  text-align: center; 
+} 
