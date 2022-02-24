@@ -64,7 +64,7 @@
 
     position: absolute;
     width: 380px;
-    height: 624px;
+    height: 560px;
     left: 70%;
     top: 13%;
 
@@ -143,8 +143,8 @@
     position: absolute;
     width: 300px;
     height: 48px;
-    left: 10.5%;
-    top: 80%;
+    left: 40px;
+    top: 420px;
 
     /* Inside auto layout */
     flex: none;
@@ -156,8 +156,7 @@
    /* background */
     background: rgba(255, 49, 234, 0.45);
     border-radius: 24px;
-    border:none;
-
+    border: 1px solid white;
     /* Next */
     font-family: Inter;
     font-style: normal;
@@ -173,14 +172,17 @@
   }
 
 #input_text {
-    font-family: Inter;
-    font-style: normal;
-    color:#212429;
-    flex: none;
-
-    order: 0;
-    flex-grow: 0;
-    margin: 8px 0px;
+  position: static;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #212429;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 8px 0px;
 }
 
 
